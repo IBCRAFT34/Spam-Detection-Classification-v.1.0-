@@ -8,7 +8,7 @@ from Model import SpamModel
 
 
 spam_model = SpamModel()
-spam_model.load_model('spam_model.pkl')
+spam_model.load_model(r'/mount/src/spam-detection-classification-v.1.0-/spam_model.pkl')
 
 def is_english(text):
     try:
